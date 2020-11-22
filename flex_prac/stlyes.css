@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div {
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(19, 89, 146);
+  border: 1px solid black;
+  font-size: larger;
+  color: white;
+}
