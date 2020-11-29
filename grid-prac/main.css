@@ -1,0 +1,36 @@
+/* Globals / Layout */
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* Header */
+
+.header{
+  background-color: #aaa;
+  padding: 1.5em;
+}
+
+/* Main content */
+
+.main {
+  background-color: cornflowerblue;
+  padding: 1.5em;
+}
+
+/* Footer */
+
+.footer {
+  background-color: rgb(171, 223, 171);
+  padding: 1.5em;
+}
